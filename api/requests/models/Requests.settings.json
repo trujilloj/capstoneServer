@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "requests",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "borrowerName": {
+      "type": "string",
+      "required": true
+    },
+    "bandName": {
+      "type": "string",
+      "required": true
+    },
+    "borrowerEmail": {
+      "type": "email",
+      "required": true
+    },
+    "borrowerRequest": {
+      "type": "text",
+      "required": true
+    },
+    "borrowerStreet": {
+      "type": "string",
+      "required": true
+    },
+    "borrowerCity": {
+      "type": "string",
+      "required": true
+    },
+    "borrowerState": {
+      "type": "string",
+      "required": true
+    },
+    "borrowerZip": {
+      "type": "string",
+      "required": true
+    },
+    "borrowerPhone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

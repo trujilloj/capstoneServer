@@ -35,5 +35,36 @@
         "appearance": ""
       }
     }
+  },
+  "requests": {
+    "attributes": {
+      "borrowerName": {
+        "appearance": ""
+      },
+      "bandName": {
+        "appearance": ""
+      },
+      "borrowerEmail": {
+        "appearance": ""
+      },
+      "borrowerRequest": {
+        "appearance": ""
+      },
+      "borrowerStreet": {
+        "appearance": ""
+      },
+      "borrowerCity": {
+        "appearance": ""
+      },
+      "borrowerState": {
+        "appearance": ""
+      },
+      "borrowerZip": {
+        "appearance": ""
+      },
+      "borrowerPhone": {
+        "appearance": ""
+      }
+    }
   }
 }
