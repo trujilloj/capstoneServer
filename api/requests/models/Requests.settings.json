@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "requests",
   "info": {
     "name": "requests",
     "description": ""
@@ -44,6 +44,21 @@
     "borrowerPhone": {
       "type": "string",
       "required": true
+    },
+    "venueStreet": {
+      "type": "string"
+    },
+    "venueCity": {
+      "type": "string"
+    },
+    "venueState": {
+      "type": "string"
+    },
+    "venueZip": {
+      "type": "string"
+    },
+    "venueName": {
+      "type": "string"
     }
   }
 }

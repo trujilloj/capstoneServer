@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lenders",
+      "handler": "Lenders.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lenders/count",
+      "handler": "Lenders.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lenders/:_id",
+      "handler": "Lenders.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lenders",
+      "handler": "Lenders.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lenders/:_id",
+      "handler": "Lenders.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lenders/:_id",
+      "handler": "Lenders.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

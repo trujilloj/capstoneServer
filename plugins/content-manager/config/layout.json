@@ -64,6 +64,49 @@
       },
       "borrowerPhone": {
         "appearance": ""
+      },
+      "venueStreet": {
+        "appearance": ""
+      },
+      "venueCity": {
+        "appearance": ""
+      },
+      "venueState": {
+        "appearance": ""
+      },
+      "venueZip": {
+        "appearance": ""
+      },
+      "venueName": {
+        "appearance": ""
+      }
+    }
+  },
+  "lenders": {
+    "attributes": {
+      "lenderName": {
+        "appearance": ""
+      },
+      "lenderEmail": {
+        "appearance": ""
+      },
+      "lenderPhone": {
+        "appearance": ""
+      },
+      "lenderStreet": {
+        "appearance": ""
+      },
+      "lenderCity": {
+        "appearance": ""
+      },
+      "lenderState": {
+        "appearance": ""
+      },
+      "lenderZip": {
+        "appearance": ""
+      },
+      "lenderGear": {
+        "appearance": ""
       }
     }
   }
