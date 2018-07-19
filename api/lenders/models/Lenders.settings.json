@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "lenders",
   "info": {
     "name": "lenders",
     "description": ""
@@ -10,28 +10,40 @@
   },
   "attributes": {
     "lenderName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderEmail": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "lenderPhone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderStreet": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderCity": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderState": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderZip": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lenderGear": {
-      "type": "text"
+      "type": "text",
+      "required": true
+    },
+    "request": {
+      "model": "requests",
+      "via": "lender"
     }
   }
 }

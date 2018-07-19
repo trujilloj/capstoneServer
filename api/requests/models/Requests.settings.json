@@ -46,19 +46,31 @@
       "required": true
     },
     "venueStreet": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "venueCity": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "venueState": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "venueZip": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "venueName": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "foundLender": {
+      "type": "boolean"
+    },
+    "lender": {
+      "model": "lenders",
+      "via": "request"
     }
   }
 }
